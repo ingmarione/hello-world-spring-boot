@@ -9,12 +9,12 @@ public class Example {
 
     @RequestMapping("/")
     String home() {
-        return "Hello World - Mario Fusco";
+        return "Bye Bye from Mario Fusco";
     }
     
     @RequestMapping("/alfonso")
     String alfonso() {
-        return "<h1 style=\"color:blue;text-align: center;\">Alfonso stai comm 'nu can' !!!</h1>";
+        return "<h1 style=\"color:blue;text-align: center;\">Alfonso sta' comm 'nu can' !!!</h1>";
     }
 
     public static void main(String[] args) throws Exception {
