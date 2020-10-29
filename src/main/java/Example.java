@@ -14,7 +14,7 @@ public class Example {
     
     @RequestMapping("/alfonso")
     String alfonso() {
-        return "<h1 style=\"color:blue;\">Stai comm nu' can !!!</h1>";
+        return "<h1 style=\"color:blue;\">Stai comm 'nu can' !!!</h1>";
     }
 
     public static void main(String[] args) throws Exception {
