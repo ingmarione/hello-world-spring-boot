@@ -9,7 +9,7 @@ public class Example {
 
     @RequestMapping("/")
     String home() {
-        return "Bye Bye from Mario Fusco";
+        return "bye bye from Mario Fusco";
     }
     
     @RequestMapping("/alfonso")
