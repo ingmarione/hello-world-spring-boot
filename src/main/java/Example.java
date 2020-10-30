@@ -17,7 +17,7 @@ public class Example {
         return "<h1 style=\"color:blue;text-align: center;\">Alfonso sta' comm 'nu can' !!!</h1>";
     }
     
-    @RequestMapping("/alfonso:fedeladecensi")
+    @RequestMapping("/fedeladecensi")
     String alfonso() {
         return "<h1 style=\"color:blue;text-align: center;\">la Fede...sta' comm 'nà cana oh !!!</h1>";
     }
