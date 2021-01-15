@@ -21,6 +21,11 @@ public class Example {
     String fedeladecensi() {
         return "<h1 style=\"color:blue;text-align: center;\">la Fede...sta' comm 'nà cana oh !!!</h1>";
     }
+    
+    @RequestMapping("/questomondodimerda")
+    String fedeladecensi() {
+        return "<h1 style=\"color:blue;text-align: center;\">Andate tutti a cagare !!!</h1>";
+    }
 
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Example.class, args);
