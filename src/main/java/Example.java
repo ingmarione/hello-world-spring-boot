@@ -23,7 +23,7 @@ public class Example {
     }
     
     @RequestMapping("/questomondodimerda")
-    String fedeladecensi() {
+    String questomondodimerda() {
         return "<h1 style=\"color:blue;text-align: center;\">Andate tutti a cagare !!!</h1>";
     }
 
